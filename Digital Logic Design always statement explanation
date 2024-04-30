@@ -1,0 +1,15 @@
+module example (
+  ......
+  always @ (sensitivity list) begin
+  always_comb // for combinational logic
+  always_ff //sequental logic
+  always_latch //for latch design
+    
+//whenever the event in sensitivity list occurs, the statements inside of an always statement are executed
+    statement 1;
+    statement 2;
+//this statements will bee executed inside the always statement
+    .......
+  end
+
+  endmodule
